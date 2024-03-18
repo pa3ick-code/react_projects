@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    *{
+        @apply p-0 m-0 box-border select-none
+    }
+
+    body{
+        @apply relative overflow-hidden w-screen;
+        font-family: "Inter", sans-serif;
+    }
+    /* Scroll bar style */
+    ::-webkit-scrollbar {
+        @apply hidden
+    }
+
+}
