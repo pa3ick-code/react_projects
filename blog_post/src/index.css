@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    *{
+        @apply m-0 p-0 box-border
+    }
+    body{
+          font-family: "Ubuntu", sans-serif;
+    }
+    #feedback{
+        @apply text-center text-[#08d184];
+    }
+    .wrapper{
+        @apply mr-14 ml-14 md:mr-3 md:ml-3
+    }
+}
